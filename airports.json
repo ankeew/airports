@@ -1,0 +1,102 @@
+[
+  {
+    "name": "Sheremetyevo",
+    "max_aircrafts": 15,
+    "line_length": 3500,
+    "planes": [
+      {
+        "number": "SU123",
+        "max_distance": 8000,
+        "max_cargo_weight": 25000,
+        "min_line_length": 2800
+      },
+      {
+        "number": "A320-456",
+        "max_distance": 6000,
+        "max_cargo_weight": 18000,
+        "min_line_length": 2400
+      }
+    ],
+    "helicopters": [
+      {
+        "number": "MI-8-001",
+        "max_distance": 800,
+        "max_cargo_weight": 4000,
+        "is_military": false
+      },
+      {
+        "number": "KA-52-007",
+        "max_distance": 1200,
+        "max_cargo_weight": 2000,
+        "is_military": true
+      }
+    ]
+  },
+  {
+    "name": "Vnukovo",
+    "max_aircrafts": 12,
+    "line_length": 3000,
+    "planes": [
+      {
+        "number": "TU154-789",
+        "max_distance": 5000,
+        "max_cargo_weight": 20000,
+        "min_line_length": 2600
+      }
+    ],
+    "helicopters": [
+      {
+        "number": "AN-2-111",
+        "max_distance": 600,
+        "max_cargo_weight": 1500,
+        "is_military": false
+      }
+    ]
+  },
+  {
+    "name": "Domodedovo",
+    "max_aircrafts": 8,
+    "line_length": 2200,
+    "planes": [
+      {
+        "number": "BOEING-737",
+        "max_distance": 4500,
+        "max_cargo_weight": 16000,
+        "min_line_length": 2000
+      }
+    ],
+    "helicopters": [
+      {
+        "number": "MI-24-999",
+        "max_distance": 1000,
+        "max_cargo_weight": 3000,
+        "is_military": true
+      },
+      {
+        "number": "EC-135-222",
+        "max_distance": 700,
+        "max_cargo_weight": 1200,
+        "is_military": false
+      },
+      {
+        "number": "MI-28-888",
+        "max_distance": 1100,
+        "max_cargo_weight": 2500,
+        "is_military": true
+      },
+      {
+        "number": "ROBINSON-333",
+        "max_distance": 500,
+        "max_cargo_weight": 800,
+        "is_military": false
+      }
+    ]
+  },
+  {
+    "name": "Zhukovsky",
+    "max_aircrafts": null,
+    "line_length": 4000,
+    "planes": [],
+    "helicopters": []
+  }
+]
